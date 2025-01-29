@@ -3,7 +3,7 @@
 ![Logo](images_currency/currency.png)
  ## Demo
 
-[ https://krzysiekworwa.github.io/homepage/](https://krzysiekworwa.github.io/Currency-converter/)
+[https://krzysiekworwa.github.io/Currency-converter/](https://krzysiekworwa.github.io/Currency-converter/)
 
  ## Description
 
