@@ -10,6 +10,10 @@ html {
     font-family: "Lato", sans-serif;
     margin: 10px;
     color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     background-image: url("../images_currency/bitcoin-4338838_1920.jpg");
     background-attachment: fixed;
     background-size: cover;
@@ -21,91 +25,10 @@ html {
 }
 
 .container {
-    max-width: 700px;
-    padding: 5px 20px;
-    margin: 0 auto;
+    flex-basis: 700px;
+    padding: 10px;
+    margin: 5px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-}
-
-.footer {
-    background-color: teal;
-    padding: 30px;
-    text-align: center;
-    color: white;
-}
-
-.darkBackground {
-    background: rgb(54, 52, 52);
-    color: #eee;
-}
-
-.navigationItem {
-    margin: 10px 0;
-}
-
-.navigationLink {
-    color: rgb(5, 100, 138);
-    text-decoration: none;
-}
-
-.navigationLink:focus {
-    outline: 2px solid currentColor;
-}
-
-.navigationLink:hover {
-    color: rgb(8, 173, 202);
-    outline: none;
-}
-
-.navigationLink:active {
-    color: rgb(4, 171, 236);
-}
-
-.navigation {
-    list-style: none;
-    padding-left: 0;
-    padding-bottom: 15px;
-    border-bottom: 2px solid teal;
-    margin-bottom: 0;
-}
-
-.image {
-    width: 220px;
-    height: 285px;
-    margin-top: 10px;
-    box-shadow: 3px 3px 5px #aaa;
-
-}
-
-.imagePlaceholder {
-    text-align: center;
-}
-
-.header {
-    color: hsl(180, 97%, 40%);
-    margin: 14px;
-}
-
-.sectionCentered {
-    text-align: center;
-}
-
-.section {
-    padding: 15px;
-}
-
-.paragraph {
-    line-height: 1.5;
-}
-
-.changeBackground {
-    background-color: teal;
-    color: white;
-    padding: 20px;
-    border: none;
-    cursor: pointer;
-    font-family: "Lato", sans-serif;
-    margin: 5px;
 }
